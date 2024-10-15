@@ -1,0 +1,20 @@
+{
+  "name": "viem-chains-for-php",
+  "version": "1.0.0",
+  "description": "Generate PHP arrays for blockchain info based on viem/chains.",
+  "main": "scripts/generate.sh",
+  "scripts": {
+    "generate": "./scripts/generate.sh",
+    "test": "php test/test.php"
+  },
+  "keywords": [
+    "blockchain",
+    "php",
+    "viem"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "viem": "^2.21.25"
+  }
+}
